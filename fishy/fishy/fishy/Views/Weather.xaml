@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fishy.Views.Weather"
+             BackgroundColor="LightSteelBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Current Weather Information"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Temperature (°C)"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="Pressure (hPa)"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="Wind (km/hr)"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="Humidity (%)"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,5 +1,7 @@
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\fishy.iOS.exe
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\fishy.iOS.pdb
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll

@@ -9,17 +9,18 @@ using Xamarin.Forms.Xaml;
 
 namespace fishy.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Home : ContentPage
-	{
-		public Home ()
-		{
-			InitializeComponent ();
-		}
-
-        private  void Button_Clicked(object sender, EventArgs e)
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Home : ContentPage
+    {
+        public Home()
         {
-             Navigation.PushAsync( new Weather(), true);
+            InitializeComponent();
+
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Weather(), true);
         }
     }
 }

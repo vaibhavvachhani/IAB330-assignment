@@ -7,6 +7,8 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Numerics.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Numerics.Vectors.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Xml.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Xml.Linq.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -17,6 +19,7 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Compat.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Core.UI.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.CustomTabs.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Fragment.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Media.Compat.dll
@@ -28,13 +31,13 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.Palette.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Essentials.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\netstandard.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Data.dll
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Numerics.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Transactions.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Diagnostics.StackTrace.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Globalization.Extensions.dll

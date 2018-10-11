@@ -1,25 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:fishy.ViewModels"
              x:Class="fishy.Views.Weather"
-             BackgroundColor="LightSteelBlue">
+             >
+
+    <ContentPage.BindingContext>
+        <vm:WeatherViewModel/>
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
-        <StackLayout>
+        
+
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
             <Label Text="Current Weather Information"
+                   Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="4"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Label Text="Temperature (°C)"
+
+            <Label Text="Temperature (°F)"
+                   Grid.Row="1" Grid.Column="1"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="{Binding CurrentWeather.Main.Temp}"
+                   Grid.Row="1" Grid.Column="2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
             <Label Text="Pressure (hPa)"
+                   Grid.Row="2" Grid.Column="1"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="{Binding CurrentWeather.Main.Pressure}"
+                   Grid.Row="2" Grid.Column="2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
             <Label Text="Wind (km/hr)"
+                   Grid.Row="3" Grid.Column="1"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="{Binding CurrentWeather.Wind.Speed}"
+                   Grid.Row="3" Grid.Column="2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
             <Label Text="Humidity (%)"
+                   Grid.Row="4" Grid.Column="1"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand"></Label>
-        </StackLayout>
+            <Label Text="{Binding CurrentWeather.Main.Humidity}"
+                   Grid.Row="4" Grid.Column="2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

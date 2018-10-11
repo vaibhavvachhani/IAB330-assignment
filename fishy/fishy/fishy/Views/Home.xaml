@@ -11,7 +11,7 @@
             <Label Text="This is Home page!"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" />
-            <Button Text="button1"
+            <Button Text="Weather Information"
                     Clicked="Button_Clicked"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"/>

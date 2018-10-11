@@ -8,6 +8,7 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\AppxMan
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Core\fishy.UWP.exe
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\fishy.UWP.build.appxrecipe
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\clrcompression.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Microsoft.VisualBasic.dll
@@ -172,6 +173,7 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\System.
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\WindowsBase.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\mscorlib.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\netstandard.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Xamarin.Essentials.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
@@ -292,5 +294,6 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\pri.res
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\qualifiers.txt
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.UWP\obj\x86\Debug\ProjectArchitectures.txt

@@ -6,7 +6,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="This is Jornal Page!"
+            <Label Text="This is Journal Page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

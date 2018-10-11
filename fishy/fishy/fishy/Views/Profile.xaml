@@ -4,10 +4,23 @@
              x:Class="fishy.Views.Profile"
              Icon="profile.png">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="This is Profile page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Aspect="AspectFit" Source="http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-gmail-2.png" />
+            <Button Text="Edit Profile Photo"/>
+            <Label Grid.Row="2" Grid.Column="1" Text="Username: "/>
+            <Entry Grid.Row="2" Grid.Column="2" Placeholder="Username"></Entry>
+            <Label Grid.Row="3" Grid.Column="1" Text="Email: " />
+            <Entry Grid.Row="3" Grid.Column="2" Placeholder="Email-Id"/>
+            <Label Grid.Row="4" Grid.Column="1" Text="Mobile :"/>
+            <Entry Grid.Row="4" Grid.Column="2" Placeholder="Phonenumber"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

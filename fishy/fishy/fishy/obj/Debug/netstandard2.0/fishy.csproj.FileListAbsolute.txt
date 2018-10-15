@@ -16,3 +16,4 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.pdb
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Report.xaml.g.cs

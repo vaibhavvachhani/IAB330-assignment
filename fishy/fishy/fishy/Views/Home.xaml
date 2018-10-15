@@ -14,16 +14,21 @@
             <Button Text="Weather Information"
                     Clicked="Button_Clicked"
                     VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand"/>
-            <Button Text="button2"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"/>
+            <Button Text="New Journal Entry"
                     VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand"/>
-            <Button Text="button3"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"/>
+            <Button Text="Suggested Trip"
                     VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand"/>
-            <Button Text="button4"
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"/>
+            <Button Text="Report a Pest"
+                    Clicked="Button_Clicked_1"
                     VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand"/>
+                    HorizontalOptions="CenterAndExpand"
+                    WidthRequest="200"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

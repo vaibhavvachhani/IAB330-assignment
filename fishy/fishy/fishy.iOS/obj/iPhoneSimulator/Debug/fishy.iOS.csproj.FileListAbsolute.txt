@@ -57,3 +57,5 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\obj\iPhoneSimulator\D
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\obj\iPhoneSimulator\Debug\fishy.iOS.csproj.CopyComplete
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\obj\iPhoneSimulator\Debug\fishy.iOS.exe
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\obj\iPhoneSimulator\Debug\fishy.iOS.pdb
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.iOS\bin\iPhoneSimulator\Debug\Plugin.Media.dll

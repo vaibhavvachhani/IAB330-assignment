@@ -1,4 +1,5 @@
-﻿using System;
+﻿using fishy.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,13 @@ namespace fishy.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Profile : ContentPage
 	{
+        ProfileViewModel viewModel;
 		public Profile ()
 		{
 			InitializeComponent ();
+            viewModel = new ProfileViewModel();
+            BindingContext = viewModel;
 		}
-	}
+
+    }
 }

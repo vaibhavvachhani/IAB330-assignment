@@ -4,12 +4,24 @@
              x:Class="fishy.Views.Report">
     <ContentPage.Content>
         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
             <Label Text="Found Something Unusual ?"
-                VerticalOptions="CenterAndExpand" 
+                VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                 Grid.Column="0"
-                Grid.Row="1"/>
-            
+                Grid.Row="0"/>
+            <Editor Placeholder="Tell us about your discovery"
+                    AutoSize="TextChanges"
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    PlaceholderColor="Coral"
+                    />
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>

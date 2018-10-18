@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:fishy.ViewModels"
              x:Class="fishy.Views.Profile"
              Icon="profile.png">
+    <ContentPage.BindingContext>
+        <vm:ProfileViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
-        <Grid>
+        <Grid Padding="10,5">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -13,8 +17,18 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Aspect="AspectFit" Source="http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-gmail-2.png" />
-            <Button Grid.Row="1" Grid.ColumnSpan="2" Text="Edit Profile Photo" WidthRequest="150"/>
+            <Image Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Aspect="AspectFit"
+                   Source="{Binding SourceString}" />
+            <Button Grid.Row="1"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Edit Profile Photo"
+                    WidthRequest="200"
+                    Command="{Binding SelectPhotoCommand}"/>
             <Label Grid.Row="2" Grid.Column="0" Text="Username: "/>
             <Entry Grid.Row="2" Grid.Column="1" Placeholder="Username"></Entry>
             <Label Grid.Row="3" Grid.Column="0" Text="Email: " />

@@ -88,21 +88,21 @@
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Plugin.Permissions/3.0.0.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
+      "sha512": "sha512-R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
       "path": "plugin.permissions/3.0.0.12",
       "hashPath": "plugin.permissions.3.0.0.12.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
+      "sha512": "sha512-AK4wVgiJqQQCALZ+2ZFY3UqEyIunVlNSBLAHNyI8bJfLT5c9kHZH3nVF2KUWYd1/2POvaz3xx9K6nSKo6m78Ew==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },

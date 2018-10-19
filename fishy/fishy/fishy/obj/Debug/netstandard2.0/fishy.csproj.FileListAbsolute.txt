@@ -18,3 +18,23 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Report.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\JournalEntry.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Mobile\git\fishy\fishy\fishy\bin\Debug\netstandard2.0\fishy.deps.json
+E:\Mobile\git\fishy\fishy\fishy\bin\Debug\netstandard2.0\fishy.dll
+E:\Mobile\git\fishy\fishy\fishy\bin\Debug\netstandard2.0\fishy.pdb
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.csprojAssemblyReference.cache
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Journal.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\JournalEntry.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Profile.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Report.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Social.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Tacklebox.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Weather.xaml.g.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.csproj.CoreCompileInputs.cache
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.AssemblyInfoInputs.cache
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.AssemblyInfo.cs
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.dll
+E:\Mobile\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.pdb

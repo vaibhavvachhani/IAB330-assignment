@@ -4,9 +4,22 @@
              x:Class="fishy.Views.JournalEntry">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Creat a Journal Entry!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Create a Journal Entry!"
+                FontSize="Large"/>
+            <Label Text="Current Date DateTime.Now()"/>
+            <Label Text="Bait Used:"/>
+            <Entry Placeholder="Bait"/>
+            <Label Text="Lure Used: "/>
+            <Entry Placeholder="Lure"/>
+            <Button x:Name="CameraButton" Text="Take Photo of your catch"/>
+            <Image x:Name="PhotoImage"
+                   VerticalOptions="End"
+                   HorizontalOptions="EndAndExpand"
+                   HeightRequest="330"
+                   WidthRequest="600"/>
+            <Button x:Name="SaveButton" Text="Save this journal entry"
+                    />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

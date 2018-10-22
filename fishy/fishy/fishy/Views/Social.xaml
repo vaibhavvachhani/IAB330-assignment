@@ -1,13 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:fishy.ViewModels"
              x:Class="fishy.Views.Social"
              Icon="social.png">
+    <ContentPage.BindingContext>
+        <vm:SocialViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="This is Social page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView Margin="0,20,0,0" ItemsSource="{Binding SocialPosts}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10,20">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="65"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Name}"
+                                       FontAttributes="Bold"
+                                       FontSize="Medium"
+                                       Grid.Row="0"
+                                       Grid.Column="0"/>
+                                <Label Text="{Binding Time}"
+                                       FontAttributes="Italic"
+                                       FontSize="Small"
+                                       Grid.Row="0"
+                                       Grid.Column="1"/>
+                                <!--
+                                
+                                
+                                <Image Source="{Binding ImageSource}"
+                                       Grid.Row="1"
+                                       Grid.Column="0"
+                                       Grid.ColumnSpan="2"/>
+                                <Label Text="{Binding Location}"
+                                       FontAttributes="Italic"
+                                       FontSize="Medium"
+                                       Grid.Row="2"
+                                       Grid.Column="0"
+                                       Grid.ColumnSpan="2"/>
+                                -->
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

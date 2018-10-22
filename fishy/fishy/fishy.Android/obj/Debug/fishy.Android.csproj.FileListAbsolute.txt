@@ -107,6 +107,9 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\catch1.jpg
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\catch2.jpg
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\catch3.jpg
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\bin\Debug\fishy.Android.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\linksrc\fishy.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\linksrc\fishy.Android.dll.mdb

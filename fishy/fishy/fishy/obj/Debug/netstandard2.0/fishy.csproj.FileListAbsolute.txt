@@ -1,7 +1,6 @@
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\bin\Debug\netstandard2.0\fishy.deps.json
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\bin\Debug\netstandard2.0\fishy.dll
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\bin\Debug\netstandard2.0\fishy.pdb
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.csprojAssemblyReference.cache
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Home.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Journal.xaml.g.cs
@@ -18,3 +17,5 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Report.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\JournalEntry.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.csprojAssemblyReference.cache
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Statement.xaml.g.cs

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:fishy.ViewModels"
              x:Class="fishy.Views.Weather"
+             BackgroundImage="weatherbackground.jpg"
              >
 
     <ContentPage.BindingContext>
@@ -22,7 +23,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
+          
             <Label Text="Current Weather Information"
                    Grid.Row="0" Grid.Column="0"
                    Grid.ColumnSpan="4"

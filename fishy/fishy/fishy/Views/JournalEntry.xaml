@@ -1,12 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:fishy.ViewModels"
              x:Class="fishy.Views.JournalEntry">
+    
+    <ContentPage.BindingContext>
+        <vm:JournalEntryViewModel/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Creat a Journal Entry!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid Padding="10, 5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Aspect="AspectFit"
+                   WidthRequest="200"
+                   HeightRequest="100"
+                   Source="{Binding SourceString}"/>
+            <Button Grid.Row="1"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Select a Photo"
+                    WidthRequest="200"
+                    Command="{Binding SelectPhotoCommand}"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="Add Location: "/>
+            <Label Grid.Row="3" Grid.Column="0" Text="Add Caption: "/>
+            <Editor Grid.Row="3" Grid.Column="1" 
+                   Placeholder="Caption"
+                   HeightRequest="100"
+                   AutoSize="TextChanges"
+                   />
+            <Button Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Create Entry"
+                    WidthRequest="200"
+                    Command="{Binding CreateEntryCommand}"/>
+        </Grid>
+    
+         
     </ContentPage.Content>
+    
 </ContentPage>

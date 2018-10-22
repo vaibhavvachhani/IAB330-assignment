@@ -16,5 +16,11 @@ namespace fishy.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+           DisplayAlert("Successful", "Your review has been submitted.", "OK");
+            
+        }
+    }
 }

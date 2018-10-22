@@ -9,31 +9,35 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <ListView Margin="0,20,0,0" ItemsSource="{Binding SocialPosts}">
+            <ListView Margin="0,15,0,0" ItemsSource="{Binding SocialPosts}"
+                      RowHeight="10"
+                      HasUnevenRows="True"
+                      VerticalOptions="CenterAndExpand">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="10,20">
+                            <Grid Padding="5,5">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="65"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="25"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
                                 <Label Text="{Binding Name}"
+                                       VerticalTextAlignment="Start"
                                        FontAttributes="Bold"
                                        FontSize="Medium"
                                        Grid.Row="0"
                                        Grid.Column="0"/>
                                 <Label Text="{Binding Time}"
+                                       VerticalTextAlignment="End"
                                        FontAttributes="Italic"
                                        FontSize="Small"
                                        Grid.Row="0"
                                        Grid.Column="1"/>
-                                <!--
-                                
-                                
                                 <Image Source="{Binding ImageSource}"
                                        Grid.Row="1"
                                        Grid.Column="0"
@@ -44,7 +48,7 @@
                                        Grid.Row="2"
                                        Grid.Column="0"
                                        Grid.ColumnSpan="2"/>
-                                -->
+                                
 
                             </Grid>
                         </ViewCell>

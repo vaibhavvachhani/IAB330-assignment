@@ -21,7 +21,7 @@ namespace fishy.Models
         private async void OpenProfile(SocialPost ob)
         {
             var x = ob.Name;
-            await App.Current.MainPage.Navigation.PushAsync(new User(), true);
+            await App.Current.MainPage.Navigation.PushAsync(new Gary_Profile(), true);
         }
 
         public ICommand GoToProfile { get; private set; }

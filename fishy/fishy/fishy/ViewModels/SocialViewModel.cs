@@ -36,8 +36,8 @@ namespace fishy.ViewModels
                     Name = "@Gary",                    
                     Time = "⌛ 1w ago",
                     ImageSource = "catch1.jpg",
-                    Location = "reserve park"
-                    
+                    Location = "📍 - Harvey Bay, Fraser Island"
+
                 },
 
                 new SocialPost
@@ -45,7 +45,7 @@ namespace fishy.ViewModels
                     Name = "@Vaibhav",
                     Time = "⌛ 3w ago",
                     ImageSource = "catch2.jpg",
-                    Location = "another park"
+                    Location = "📍 - Arthurs Lake, Tasmania"
 
                 },
 
@@ -54,7 +54,7 @@ namespace fishy.ViewModels
                     Name = "@Kharghan",
                     Time = "⌛ 4w ago",
                     ImageSource = "catch3.jpg",
-                    Location = "another park"
+                    Location = "📍 - Kakadu National Park, Top End"
 
                 }
                 // TODO: Add more elements to the static list

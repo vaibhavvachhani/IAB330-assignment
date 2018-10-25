@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fishy.Views.AddNewReelPage">
+    <ContentPage.Content>
+		<ScrollView>
+        <StackLayout>
+				<Label Text="Add New Reel"
+                 
+                HorizontalOptions="CenterAndExpand" />
+				<Entry x:Name="Brand_Input" Placeholder="Brand"/>
+				<Entry x:Name="Model_Input" Placeholder="Model"/>
+				<Entry x:Name="Size_Input" Placeholder="Reel Size" Keyboard="Numeric"/>
+				<Picker x:Name="Reel_Type_Input" Title="Reel Type" SelectedIndexChanged="ReelTypeSelected"/>
+				<Button Text="Save Reel" Clicked="SaveNewReel"/>
+				
+
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

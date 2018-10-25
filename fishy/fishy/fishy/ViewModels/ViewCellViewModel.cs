@@ -17,7 +17,7 @@ namespace fishy.ViewModels
 
         private async void OpenProfile()
         {
-            await App.Current.MainPage.Navigation.PushAsync(new User(), true);
+           // await App.Current.MainPage.Navigation.PushAsync(new Gary_Profile(), true);
         }
 
         public ICommand GoToProfile { get; private set; }

@@ -20,3 +20,13 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.csprojAssemblyReference.cache
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Statement.xaml.g.cs
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\User.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\AddNewLinePage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\AddNewLurePage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\AddNewReelPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\AddNewRodPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\MyLinesPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\MyLuresPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\MyReelsPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\MyRodsPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\MyTackleBoxPage.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Gary_Profile.xaml.g.cs

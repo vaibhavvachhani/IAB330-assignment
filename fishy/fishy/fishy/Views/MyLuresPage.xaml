@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:fishy.ViewModels"
+			 x:Class="fishy.Views.MyLuresPage">
+	<ContentPage.BindingContext>
+		<local:TackleBoxViewModel/>
+	</ContentPage.BindingContext>
+
+	<ListView ItemsSource="{Binding MyLures}"
+			  HasUnevenRows="True"
+			  ItemTapped="ListView_OnItemTapped"
+			  >
+
+		<ListView.ItemTemplate>
+
+			<DataTemplate>
+
+				<ViewCell>
+					<StackLayout>
+
+						<Label Text="{Binding Brand }"/>
+						<Label Text="{Binding Model}"/>
+						<Label Text="{Binding LureType}"/>
+						<Label Text="{Binding Weight}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding Length}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding Colour}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding JigheadBrand}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding JigheadWeight}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding JigheadHookSize}" IsVisible="{Binding IsVisible}"/>
+
+
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+
+
+</ContentPage>

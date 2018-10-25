@@ -6,9 +6,12 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="This is Tacklebox page!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+			
+			<Button Text="My Tackle Box" Clicked="OpenMyTackleBoxPage"/>
+			<Button Text="Add New Rod" Clicked="OpenNewRodPage"/>
+			<Button Text="Add New Reel" Clicked="OpenNewReelPage"/>
+			<Button Text="Add New Line" Clicked="OpenNewLinePage"/>
+			<Button Text="Add New Lure" Clicked="OpenNewLurePage"/>
+		</StackLayout>
     </ContentPage.Content>
 </ContentPage>

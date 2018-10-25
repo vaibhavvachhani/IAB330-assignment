@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fishy.Views.AddNewLinePage">
+    <ContentPage.Content>
+        <StackLayout>
+			<Label Text="Add New Line"
+                 
+                HorizontalOptions="CenterAndExpand" />
+			<Entry x:Name="Brand_Input" Placeholder="Brand"/>
+			<Entry x:Name="Model_Input" Placeholder="Model"/>
+			<Entry x:Name="Strength_Input" Placeholder="Line Strength" Keyboard="Numeric"/>
+			<Picker x:Name="Line_Type_Picker" Title="Line Type" SelectedIndexChanged="LineTypeSelected"/>
+			<Picker x:Name="Line_Use_Picker" Title="Line Use" SelectedIndexChanged="LineUseSelected"/>
+			<Button Text="Save Reel" Clicked="SaveNewReel"/>
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

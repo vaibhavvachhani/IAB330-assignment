@@ -2373,7 +2373,16 @@ namespace fishy.Droid
 			public const int design_snackbar_background = 2131296347;
 			
 			// aapt resource value: 0x7F010005
-			public const int home = 2130771973;
+			public const int fish = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int fishing-512 = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int gary = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int home = 2130771976;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -2906,8 +2915,8 @@ namespace fishy.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010006
-			public const int journal = 2130771974;
+			// aapt resource value: 0x7F010009
+			public const int journal = 2130771977;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3008,14 +3017,14 @@ namespace fishy.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010007
-			public const int profile = 2130771975;
+			// aapt resource value: 0x7F010010
+			public const int profile = 2130771984;
 			
-			// aapt resource value: 0x7F010008
-			public const int social = 2130771976;
+			// aapt resource value: 0x7F010011
+			public const int social = 2130771985;
 			
-			// aapt resource value: 0x7F010009
-			public const int tackle = 2130771977;
+			// aapt resource value: 0x7F010012
+			public const int tackle = 2130771986;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3023,8 +3032,8 @@ namespace fishy.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010010
-			public const int weatherbackground = 2130771984;
+			// aapt resource value: 0x7F010013
+			public const int weatherbackground = 2130771987;
 			
 			static Drawable()
 			{

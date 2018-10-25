@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:local="clr-namespace:fishy.ViewModels"
+			 x:Class="fishy.Views.MyLinesPage">
+	<ContentPage.BindingContext>
+		<local:TackleBoxViewModel/>
+	</ContentPage.BindingContext>
+
+	<ListView ItemsSource="{Binding MyLines}"
+			  HasUnevenRows="True"
+			  ItemTapped="ListView_OnItemTapped"
+			  >
+
+		<ListView.ItemTemplate>
+
+			<DataTemplate>
+
+				<ViewCell>
+					<StackLayout>
+
+						<Label Text="{Binding Brand }"/>
+						<Label Text="{Binding Model}"/>
+						<Label Text="{Binding Breakingstrength}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding LineType}" IsVisible="{Binding IsVisible}"/>
+						<Label Text="{Binding LineUse}" IsVisible="{Binding IsVisible}"/>
+
+
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+
+
+</ContentPage>

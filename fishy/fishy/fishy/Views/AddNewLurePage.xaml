@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fishy.Views.AddNewLurePage">
+	<ContentPage.Content>
+	
+	<ScrollView>
+        <StackLayout>
+				<Label Text="Add New Lure"
+                 
+                HorizontalOptions="CenterAndExpand" />
+				<Entry x:Name="Brand_Input" Placeholder="Brand"/>
+			<Entry x:Name="Model_Input" Placeholder="Model"/>			
+			<Picker x:Name="Lure_Type_Picker" Title="Lure Type" SelectedIndexChanged="LureTypeSelected"/>
+			<Entry x:Name="Weight_Input" Placeholder="Weight" Keyboard="Numeric"/>
+			<Entry x:Name="Length_Input" Placeholder="Length" Keyboard="Numeric"/>
+			<Entry x:Name="Colour_Input" Placeholder="Colour"/>
+
+				<Entry x:Name="JigHeadBrand_Input" Placeholder="Jig Head Brand" IsVisible="{Binding ShowJigHeadOptions}"/>
+				<Entry x:Name="jigHeadWeightInput" Placeholder="Jig Head Weight" Keyboard="Numeric" IsVisible="{Binding ShowJigHeadOptions}"/>
+				<Entry x:Name="JigHeadHookSize_Input" Placeholder="Jig Head Hook Size" Keyboard="Numeric" IsVisible="{Binding ShowJigHeadOptions}"/>
+
+			<Button Text="Save Lure" Clicked="SaveNewLure"/>
+		</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

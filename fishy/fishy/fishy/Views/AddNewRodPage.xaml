@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fishy.Views.AddNewRodPage">
+	<ContentPage.Content>
+		<ScrollView>
+		<StackLayout>
+			<Label Text="Add New Rod"
+                 
+                HorizontalOptions="CenterAndExpand" />
+			<Entry x:Name="Brand_Input" Placeholder="Brand"/>
+			<Entry x:Name="Model_Input" Placeholder="Model"/>
+			<Entry x:Name="Length_Input_Feet" Placeholder="Feet" Keyboard="Numeric"/>
+			<Entry x:Name="Length_Input_Inches" Placeholder="Inches" Keyboard="Numeric"/>
+			<Entry x:Name="Weight_Input_Low" Placeholder="Weight RatingL Low" Keyboard="Numeric"/>
+			<Entry x:Name="Weight_Input_High" Placeholder="Weight Rating High" Keyboard="Numeric"/>
+			<Entry x:Name="LureWeight_Input_Low" Placeholder="Lure Weight Low" Keyboard="Numeric"/>
+			<Entry x:Name="LureWeight_Input_High" Placeholder="Lure Weight High" Keyboard="Numeric"/>
+			<Button Text="Save Rod" Clicked="SaveNewRod"/>
+			
+		</StackLayout>
+			</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

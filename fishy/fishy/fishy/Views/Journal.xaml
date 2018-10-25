@@ -9,7 +9,12 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <ListView Margin="0,15,0,0" ItemsSource="{Binding Entries}"
+            <Label Text="Your Journal Entries"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   VerticalOptions="StartAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+            <ListView Margin="0,5,0,0" ItemsSource="{Binding Entries}"
                       RowHeight="10"
                       HasUnevenRows="True"
                       VerticalOptions="CenterAndExpand">
@@ -21,19 +26,33 @@
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <Label Text="{Binding Caption}"
+                                <Label Text="@User"
                                        VerticalTextAlignment="Start"
                                        FontAttributes="Bold"
                                        FontSize="Medium"
                                        Grid.Row="0"
                                        Grid.Column="0"/>
+                                <Label Text="{Binding Caption}"
+                                       VerticalTextAlignment="Start"
+                                       FontAttributes="Bold"
+                                       FontSize="Medium"
+                                       Grid.Row="3"
+                                       Grid.Column="0"/>
+                                <Label Text="❝❞"
+                                       HorizontalTextAlignment="End"
+                                       HorizontalOptions="EndAndExpand"
+                                       FontAttributes="Bold"
+                                       FontSize="Medium"
+                                       Grid.Row="3"
+                                       Grid.Column="1"/>
                                 <Label Text="now"
-                                       VerticalTextAlignment="End"
+                                       HorizontalTextAlignment="End"
                                        FontAttributes="Italic"
                                        FontSize="Small"
                                        Grid.Row="0"
@@ -48,6 +67,13 @@
                                        Grid.Row="2"
                                        Grid.Column="0"
                                        Grid.ColumnSpan="2"/>
+                                <Label Text="- 📍"
+                                       HorizontalTextAlignment="End"
+                                       HorizontalOptions="EndAndExpand"
+                                       FontAttributes="Bold"
+                                       FontSize="Medium"
+                                       Grid.Row="2"
+                                       Grid.Column="1"/>
 
 
                             </Grid>

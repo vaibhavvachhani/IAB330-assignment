@@ -45,7 +45,7 @@ namespace fishy.ViewModels
             CreateEntryCommand = new Command(CreateEntry);
         }
 
-        private string imageSource = "http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-gmail-2.png";
+        private string imageSource = "fish.png";
 
         public string ImageSource
         {

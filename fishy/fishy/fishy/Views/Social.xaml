@@ -9,14 +9,20 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <ListView Margin="0,15,0,0" ItemsSource="{Binding SocialPosts}"
+            <Label Text="Posts from Friends"
+                                       FontSize="Large"
+                                       FontAttributes="Bold"
+                                       VerticalOptions="StartAndExpand"
+                                       HorizontalOptions="CenterAndExpand"/>
+            <ListView Margin="0,5,0,0" ItemsSource="{Binding SocialPosts}"
                       RowHeight="10"
                       HasUnevenRows="True"
                       VerticalOptions="CenterAndExpand">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="5,5">
+                            <Grid Padding="5,5,5,5">
+                                
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="*"/>

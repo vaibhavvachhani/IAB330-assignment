@@ -1,6 +1,8 @@
-﻿using System;
+﻿using fishy.Views;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace fishy.Models
@@ -11,7 +13,20 @@ namespace fishy.Models
         public string ImageSource { get; set; }
         public string Location { get; set; }
         public string Time { get; set; }
+        public SocialPost()
+        {
+            GoToProfile = new Command(ob => { OpenProfile(ob as SocialPost); });
+
+        }
+        private async void OpenProfile(SocialPost ob)
+        {
+            var x = ob.Name;
+            await App.Current.MainPage.Navigation.PushAsync(new User(), true);
+        }
+
+        public ICommand GoToProfile { get; private set; }
     }
+
 
 
 }

@@ -31,9 +31,13 @@
                                        FontAttributes="Bold"
                                        FontSize="Medium"
                                        Grid.Row="0"
-                                       Grid.Column="0"/>
+                                       Grid.Column="0">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding GoToProfile,}" CommandParameter="{Binding}" ></TapGestureRecognizer>
+                                    </Label.GestureRecognizers>
+                                </Label>
                                 <Label Text="{Binding Time}"
-                                       VerticalTextAlignment="End"
+                                       HorizontalTextAlignment="End"
                                        FontAttributes="Italic"
                                        FontSize="Small"
                                        Grid.Row="0"
@@ -51,6 +55,7 @@
                                 
 
                             </Grid>
+                            
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

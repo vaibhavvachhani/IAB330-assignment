@@ -16,5 +16,6 @@ namespace fishy.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+    }
 }

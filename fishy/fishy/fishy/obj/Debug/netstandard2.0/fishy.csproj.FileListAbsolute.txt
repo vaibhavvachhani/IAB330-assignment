@@ -19,3 +19,4 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\fishy.csprojAssemblyReference.cache
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\Statement.xaml.g.cs
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy\obj\Debug\netstandard2.0\Views\User.xaml.g.cs

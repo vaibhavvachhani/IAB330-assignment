@@ -1,7 +1,10 @@
 ﻿using fishy.Models;
+using fishy.Views;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace fishy.ViewModels
 {
@@ -18,33 +21,48 @@ namespace fishy.ViewModels
                 OnPropertyChanged();
             }
         }
+        
+
+ 
+        
 
         public SocialViewModel()
         {
+            
             SocialPosts = new List<SocialPost>
             {
                 new SocialPost
                 {
-                    Name = "username",                    
-                    Time = "one week ago",
+                    Name = "@Gary",                    
+                    Time = "⌛ 1w ago",
                     ImageSource = "catch1.jpg",
                     Location = "reserve park"
                     
                 },
 
-                 new SocialPost
+                new SocialPost
                 {
-                    Name = "username2",
-                    Time = "three weeks ago",
+                    Name = "@Vaibhav",
+                    Time = "⌛ 3w ago",
                     ImageSource = "catch2.jpg",
                     Location = "another park"
 
-                }
+                },
 
+                new SocialPost
+                {
+                    Name = "@Kharghan",
+                    Time = "⌛ 4w ago",
+                    ImageSource = "catch3.jpg",
+                    Location = "another park"
+
+                }
                 // TODO: Add more elements to the static list
 
             };
         }
+
+        
     }
     
 }

@@ -1,4 +1,5 @@
-﻿using Plugin.Media;
+﻿using fishy.Models;
+using Plugin.Media;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,25 +8,54 @@ using Xamarin.Forms;
 
 namespace fishy.ViewModels
 {
-    class JournalEntryViewModel : BaseViewModel
+    public class JournalEntryViewModel : BaseViewModel
     {
+       
+        private string caption;
+        //private string imageSource;
+        private string address;
+        public string Caption
+        {
+            get
+            {
+                return caption;
+            }
+            set
+            {
+                caption = value;
+                OnPropertyChanged();
+            }
+        }
+        public string Address
+        {
+            get
+            {
+                return address;
+            }
+            set
+            {
+                address = value;
+                OnPropertyChanged();
+            }
+        }
+
         public JournalEntryViewModel()
         {
             SelectPhotoCommand = new Command(SelectPhoto);
             CreateEntryCommand = new Command(CreateEntry);
         }
 
-        private string sourceString = "http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-gmail-2.png";
+        private string imageSource = "http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-gmail-2.png";
 
-        public string SourceString
+        public string ImageSource
         {
             get
             {
-                return sourceString;
+                return imageSource;
             }
             set
             {
-                sourceString = value;
+                imageSource = value;
                 OnPropertyChanged();
             }
         }
@@ -37,7 +67,7 @@ namespace fishy.ViewModels
 
             if (file != null)
             {
-                SourceString = file.Path;
+                ImageSource = file.Path;
 
             }
         }
@@ -48,10 +78,14 @@ namespace fishy.ViewModels
 
         public ICommand CreateEntryCommand { get; private set; }
 
+       
+        
+        private async void CreateEntry()
 
-        private void CreateEntry()
         {
-
+            Models.Entry entry1 = new Models.Entry(ImageSource=ImageSource,Caption=Caption,Address=Address);
+            JournalViewModel.entries.Add(entry1);
+            await App.Current.MainPage.Navigation.PopAsync();
         }
     }
 }

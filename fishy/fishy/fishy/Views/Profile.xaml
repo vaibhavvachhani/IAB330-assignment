@@ -15,9 +15,10 @@
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
-
-
-
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -36,11 +37,23 @@
                     WidthRequest="200"
                     Command="{Binding SelectPhotoCommand}"/>
             <Label Grid.Row="2" Grid.Column="0" Text="Username: "/>
-            <Entry Grid.Row="2" Grid.Column="1" Placeholder="Username"></Entry>
+            <Entry Grid.Row="2" Grid.Column="1" Placeholder="Username"
+                   Text="example"
+                   Keyboard="Text"
+                  ></Entry>
             <Label Grid.Row="3" Grid.Column="0" Text="Email: " />
-            <Entry Grid.Row="3" Grid.Column="1" Placeholder="Email-Id"/>
+            <Entry Grid.Row="3" Grid.Column="1" Text="example@test.com"
+                   Keyboard="Email"/>
             <Label Grid.Row="4" Grid.Column="0" Text="Mobile :"/>
-            <Entry Grid.Row="4" Grid.Column="1" Placeholder="Phonenumber"/>
+            <Entry Grid.Row="4" Grid.Column="1" Text="0405810203"
+                   Keyboard="Telephone"/>
+            <Label Grid.Row="5" Grid.Column="0" Text="Date of Birth:"/>
+            <Entry Grid.Row="5" Grid.Column="1" Text="14-05-1998"
+                   Keyboard="Numeric"/>
+            <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"
+                    Text="Save" HorizontalOptions="CenterAndExpand"
+                    />
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>

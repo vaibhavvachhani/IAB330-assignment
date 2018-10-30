@@ -12,6 +12,7 @@ namespace fishy.Views
 		public MainPage()
 		{
 			InitializeComponent();
+            Children.Add(new Weather());
             Children.Add(new Home());
             Children.Add(new Journal());
             Children.Add(new Tacklebox());

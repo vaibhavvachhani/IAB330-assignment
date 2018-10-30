@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="fishy.Views.Khargan_Profile">
+    <ContentPage.Content>
+        <Grid Padding="5,5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="190"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+
+
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Khargan Powell"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   />
+            <Image Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Aspect="AspectFit"
+                   Source="catch3.jpg" />
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Rank: 570"
+                   FontAttributes="Italic"
+                   FontSize="Medium"
+                   ></Label>
+            <Label Grid.Row="2"
+                   Grid.Column="1"
+                   Text="🏆: 2   🏵:1"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   ></Label>
+            <Button Grid.Row="3"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Message"
+                    WidthRequest="200"/>
+            <Label Grid.Row="4" Grid.Column="0" Text="Email: "
+                   />
+            <Label Grid.Row="4" Grid.Column="1" Text="khargan.powell912@hotmail.com"
+                   FontAttributes="Bold"></Label>
+            <Label Grid.Row="5" Grid.Column="0" Text="Birthday: "
+                   />
+            <Label Grid.Row="5" Grid.Column="1" Text="13-03-1994"
+                   FontAttributes="Bold"></Label>
+            <Button Grid.Row="6"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="View Catches"
+                    WidthRequest="200"/>
+            <Button Grid.Row="7"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Remove Friend"
+                    WidthRequest="200"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

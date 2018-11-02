@@ -92,14 +92,18 @@
                          Grid.ColumnSpan="2"
                          Padding="10,10"
                          Orientation="Horizontal"
-                         BackgroundColor="AliceBlue">
+                         >
                 <Button Text="Report a Pest"
                         HeightRequest="115"
+                        WidthRequest="160"
                         Clicked="Button_Clicked_1"
+                        BackgroundColor="AliceBlue"
                       FontSize="Large"></Button>
                 <Button Text="Suggest Trip"
                         HeightRequest="115"
+                        WidthRequest="160"
                         Clicked="Button_Clicked_2"
+                        BackgroundColor="AliceBlue"
                        FontSize="Large"></Button>
 
 

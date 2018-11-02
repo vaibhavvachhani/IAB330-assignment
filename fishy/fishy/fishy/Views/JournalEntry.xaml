@@ -15,6 +15,7 @@
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
                 <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
 
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -52,7 +53,14 @@
                    AutoSize="TextChanges"
                    Text="{Binding Caption}"
                    />
-            <Button Grid.Row="4"
+            <Label Grid.Row="4" Grid.Column="0" Text="Species"/>
+            <Editor Grid.Row="4" Grid.Column="1" 
+                   Placeholder="Species of Catch"
+                   HeightRequest="80"
+                   AutoSize="TextChanges"
+                   Text="{Binding Species}"
+                   />
+            <Button Grid.Row="5"
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
                     HorizontalOptions="CenterAndExpand"

@@ -13,7 +13,7 @@ namespace fishy.Views
 		{
 			InitializeComponent();
             Children.Add(new Weather());
-            Children.Add(new Home());
+           // Children.Add(new Home());
             Children.Add(new Journal());
             Children.Add(new Tacklebox());
             Children.Add(new Social());

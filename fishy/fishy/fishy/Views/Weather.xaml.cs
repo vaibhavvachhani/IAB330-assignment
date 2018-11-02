@@ -25,5 +25,20 @@ namespace fishy.Views
             base.OnAppearing();
             await binding.GetLocation();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new JournalEntry(), true);
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Report(), true);
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Statement(), true);
+        }
     }
 }

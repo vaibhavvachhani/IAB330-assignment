@@ -27,6 +27,7 @@
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="25"/>
                                     <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
@@ -73,6 +74,19 @@
                                        FontAttributes="Bold"
                                        FontSize="Medium"
                                        Grid.Row="2"
+                                       Grid.Column="1"/>
+                                <Label Text="{Binding Species}"
+                                       FontAttributes="Italic"
+                                       FontSize="Medium"
+                                       Grid.Row="2"
+                                       Grid.Column="0"
+                                       Grid.ColumnSpan="2"/>
+                                <Label Text="- 🐟"
+                                       HorizontalTextAlignment="End"
+                                       HorizontalOptions="EndAndExpand"
+                                       FontAttributes="Bold"
+                                       FontSize="Medium"
+                                       Grid.Row="3"
                                        Grid.Column="1"/>
 
 

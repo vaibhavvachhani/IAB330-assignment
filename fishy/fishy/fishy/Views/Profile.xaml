@@ -28,10 +28,12 @@
                    Grid.Column="0"
                    Grid.ColumnSpan="2"
                    Aspect="AspectFit"
+                   AutomationId="profileimage"
                    Source="{Binding SourceString}" />
             <Button Grid.Row="1"
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
+                    AutomationId="selectbutton"
                     HorizontalOptions="CenterAndExpand"
                     Text="Edit Profile Photo"
                     WidthRequest="200"

@@ -12,6 +12,7 @@ namespace fishy.ViewModels
     {
        
         private string caption;
+        private string species;
         //private string imageSource;
         private string address;
         public string Caption
@@ -24,6 +25,19 @@ namespace fishy.ViewModels
             {
                 caption = value;
                 OnPropertyChanged();
+            }
+        }
+
+        public string Species {
+            get
+            {
+                return species;
+            }
+            set
+            {
+                species = value;
+                OnPropertyChanged();
+
             }
         }
         public string Address
@@ -83,7 +97,7 @@ namespace fishy.ViewModels
         private async void CreateEntry()
 
         {
-            Models.Entry entry1 = new Models.Entry(ImageSource=ImageSource,Caption=Caption,Address=Address);
+            Models.Entry entry1 = new Models.Entry(ImageSource=ImageSource,Caption=Caption,Address=Address,Species= Species);
             JournalViewModel.entries.Add(entry1);
             await App.Current.MainPage.Navigation.PopAsync();
         }

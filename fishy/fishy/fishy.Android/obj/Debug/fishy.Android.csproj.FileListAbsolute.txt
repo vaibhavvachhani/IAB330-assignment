@@ -41,6 +41,11 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\dra
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\catch3.jpg
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\gary.jpg
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\fish.png
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\pressure.png
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\humidity.png
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\temperature.png
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\wind.png
+C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\create_journal.png
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\bin\Debug\Mono.Android.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\bin\Debug\mscorlib.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\bin\Debug\System.Core.pdb
@@ -112,12 +117,7 @@ C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\pressure.png
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\humidity.png
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\temperature.png
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\res\drawable\wind.png
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\bin\Debug\fishy.Android.dll
-C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\linksrc\fishy.pdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\linksrc\fishy.Android.dll.mdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\Vaibhav Vachhani\IAB330\git\fishy\fishy\fishy.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

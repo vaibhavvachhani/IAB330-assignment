@@ -14,11 +14,13 @@
     <ContentPage.Content>
         
 
-        <Grid>
+        <Grid Margin="5,5,5,5">
             
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
+                <RowDefinition Height="115"/>
+                <RowDefinition Height="115"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -29,40 +31,38 @@
                          Grid.Column="0"
                          Orientation="Horizontal">
                 <Image Source="temperature.png"></Image>
-            <Label Text="Temperature (°F)"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand"></Label>
-            <Label Text="{Binding CurrentWeather.Main.Temp}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-                
+                <Label Text="Temp (°F)"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"></Label>
+                <Label Text="{Binding CurrentWeather.Main.Temp}"
+                       AutomationId="temp"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
             </StackLayout>
 
             <StackLayout Grid.Row="0"
                          Grid.Column="1"
-                         Orientation="Horizontal">
+                         Orientation="Horizontal"
+                         >
                 <Image Source="pressure.png"/>
                 <Label Text="Pressure (hPa)"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand"></Label>
-            <Label Text="{Binding CurrentWeather.Main.Pressure}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-                
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"></Label>
+                <Label Text="{Binding CurrentWeather.Main.Pressure}"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
             </StackLayout>
 
             <StackLayout Grid.Row="1"
                          Grid.Column="0"
                          Orientation="Horizontal">
                 <Image Source="wind.png"/>
-
                 <Label Text="Wind (km/hr)"
-                   
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand"></Label>
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"></Label>
             <Label Text="{Binding CurrentWeather.Wind.Speed}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
             </StackLayout>
 
             <StackLayout Grid.Row="1"
@@ -70,12 +70,39 @@
                          Orientation="Horizontal">
                 <Image Source="humidity.png"/>
                 <Label Text="Humidity (%)"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand"></Label>
-            <Label Text="{Binding CurrentWeather.Main.Humidity}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-                
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"></Label>
+                <Label Text="{Binding CurrentWeather.Main.Humidity}"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Grid.Row="2"
+                         Grid.Column="0"
+                         Grid.ColumnSpan="2"
+                         Orientation="Vertical"
+                         >
+                <Button Text="Create a Journal Entry"
+                       Clicked="Button_Clicked"
+                       BackgroundColor="AliceBlue"
+                       HeightRequest="115"></Button>
+
+            </StackLayout>
+            <StackLayout Grid.Row="3"
+                         Grid.Column="0"
+                         Grid.ColumnSpan="2"
+                         Padding="10,10"
+                         Orientation="Horizontal"
+                         BackgroundColor="AliceBlue">
+                <Button Text="Report a Pest"
+                        HeightRequest="115"
+                        Clicked="Button_Clicked_1"
+                      FontSize="Large"></Button>
+                <Button Text="Suggest Trip"
+                        HeightRequest="115"
+                        Clicked="Button_Clicked_2"
+                       FontSize="Large"></Button>
+
+
             </StackLayout>
         </Grid>
     </ContentPage.Content>
